@@ -108,6 +108,15 @@ Once you have configured Docker Desktop to work with WSL2, follow these steps to
 ## Installing Node.js and npm
 
 We recommend you install the LTS release for Node.js with a node version manager - [nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+In your terminal, run the nvm installer like this:
+
+```console
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+
+# or
+
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+```
 
 Once installed use these commands to install and use the Node.js version as needed
 
