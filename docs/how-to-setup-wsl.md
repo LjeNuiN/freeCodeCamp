@@ -110,6 +110,9 @@ Once you have configured Docker Desktop to work with WSL2, follow these steps to
 We recommend you install the LTS release for Node.js with a node version manager - [nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
 In your terminal, run the nvm installer like this:
 
+> [!TIP]
+> We recommend updating to the latest stable releases of the software listed above, also known as Long Term Support (LTS) releases. However, some npm packages may not be comptible with newer versions of node. NVM can allow you to use npm packages with the compatible versions of node. Be mindeful of your current node version before upagrading incase it causes issues with some of your ongoing projects outside of freeCodeCamp
+
 ```console
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 
